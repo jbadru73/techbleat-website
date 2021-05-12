@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage ('Copy index file') {
+        stage ('Copy index file1') {
             steps {
                 echo "copying index file"
                 sh 'sudo cp index.html /usr/share/nginx/html'
